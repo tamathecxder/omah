@@ -1,3 +1,8 @@
-<script lang="ts"></script>
+<script lang="ts">
+  import Navbar from "./lib/components/Navbar.svelte";
+
+</script>
+
+<Navbar />
 
 <style></style>
