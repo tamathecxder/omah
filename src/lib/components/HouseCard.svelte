@@ -6,18 +6,18 @@
 </script>
 
 <div class="flex flex-col justify-start items-start">
-    <div class="flex items-center justify-center w-full h-full bg-amber-200 relative">
-        <img src={item.image_path} class="h-full object-center object-contain" alt="xxx">
+    <div class="flex flex-row items-center justify-center w-full h-full relative">
+        <img src={item.image_path} class="h-full object-center object-contain" alt={item.name}>
         <div class="h-10 w-10 bg-white absolute rounded-full top-0 right-0 p-6 m-6 flex items-center justify-center cursor-pointer hover:bg-primary/10">
             <img src="/assets/love.svg" class="absolute w-6 h-6 object-center" alt="Love">
         </div>
         <div class="min-w-[100px] bg-white absolute bottom-0 left-0 p-4 shadow-md flex items-center justify-center cursor-pointer hover:bg-primary/10">
-            <span class="text-base font-medium text-primary">{displayTotalRoom(item.total_rooms)}</span>
+            <span class="text-sm lg:text-base font-medium text-primary">{displayTotalRoom(item.total_rooms)}</span>
         </div>
     </div> 
     <div class="flex flex-col gap-4 items-start justify-start mt-6">
-        <h3 class="font-medium text-3xl">{item.name}</h3>
-        <span class="font-regular text-base">{item.address}</span>
-        <span class="text-xl text-primary">{item.price}</span>
+        <h3 class="font-medium text-2xl lg:text-3xl">{item.name}</h3>
+        <span class="font-regular text-sm lg:text-base">{item.address}</span>
+        <span class="text-base lg:text-xl text-primary">{item.price}</span>
     </div>
 </div>

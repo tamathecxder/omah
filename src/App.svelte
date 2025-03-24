@@ -9,7 +9,7 @@
     import data from "./lib/utils/data";
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto px-5">
     <Navbar />
     
     <main class="pt-10">

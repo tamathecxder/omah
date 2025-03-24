@@ -4,14 +4,16 @@
     export let testimonial: Testimonial;
 </script>
 
-<div class="flex flex-col justify-start items-start">
-    <div class="flex items-center justify-start w-[570px] h-[400px] relative">
-        <img src={testimonial.image_path} class="h-full object-center object-cover" alt="xxx">
-        <div class="min-w-[150px] bg-white absolute bottom-0 left-0 p-4 shadow-md flex items-center justify-center">
-            <span class="text-base font-medium text-primary">{testimonial.name}</span>
+<div class="flex flex-col justify-start items-start w-full">
+    <div class="relative w-full h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden">
+        <img src={testimonial.image_path} class="w-full h-full object-cover" alt={testimonial.name} />
+        
+        <div class="absolute bottom-0 left-0 bg-white px-4 py-2 shadow-md">
+            <span class="text-sm sm:text-base font-medium text-primary">{testimonial.name}</span>
         </div>
     </div> 
-    <div class="flex flex-col gap-4 items-start justify-start mt-6">
-        <h4 class="max-w-md font-regular text-2xl">{testimonial.testimony}</h4>
+
+    <div class="flex flex-col gap-3 mt-4">
+        <h4 class="text-lg sm:text-xl font-regular leading-relaxed">{testimonial.testimony}</h4>
     </div>
 </div>
