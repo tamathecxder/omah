@@ -11,7 +11,7 @@
 </script>
 
 <section class="pb-16 lg:pb-32">
-  <div class="flex flex-col md:flex-row items-center justify-between mb-10">
+  <div class="flex flex-row items-center justify-between mb-10">
     <Title value="Always check our latest blog" />
     <ViewAll />
   </div>

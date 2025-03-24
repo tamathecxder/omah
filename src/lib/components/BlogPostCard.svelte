@@ -10,7 +10,7 @@
     <div class="relative w-full h-[250px] sm:h-[350px] lg:h-[400px] overflow-hidden">
       <img src={post.image_path} class="w-full h-full object-cover" alt={post.title} />
 
-      <div class="absolute bottom-0 left-0 bg-white px-4 py-3 shadow-md flex items-center gap-4">
+      <div class="absolute bottom-0 left-0 bg-white px-4 py-3 flex items-center gap-4">
         <div class="rounded-full p-4 bg-amber-100"></div>
         <div class="flex flex-col text-xs">
           <span class="font-medium">{post.writer_name}</span>

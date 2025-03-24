@@ -8,7 +8,7 @@
     <div class="relative w-full h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden">
         <img src={testimonial.image_path} class="w-full h-full object-cover" alt={testimonial.name} />
         
-        <div class="absolute bottom-0 left-0 bg-white px-4 py-2 shadow-md">
+        <div class="absolute bottom-0 left-0 bg-white px-4 py-2">
             <span class="text-sm sm:text-base font-medium text-primary">{testimonial.name}</span>
         </div>
     </div> 
