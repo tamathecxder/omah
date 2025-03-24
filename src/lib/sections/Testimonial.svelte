@@ -16,9 +16,9 @@
     
     <div class="flex flex-row overflow-x-auto">
         {#each testimonials as testimonial}
-          <div class="flex-none w-1/2 md:w-2/5 pb-10"> <!-- Mengatur lebar item -->
+          <div class="flex-none w-1/2 md:w-2/5 pb-10">
             <TestimonialCard {testimonial} />
           </div>
         {/each}
-      </div>
+    </div>
 </section>
