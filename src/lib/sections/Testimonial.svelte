@@ -15,7 +15,7 @@
     
     <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide">
         {#each testimonials as testimonial}
-          <div class="flex-none w-full sm:w-1/2 md:w-2/5 lg:w-1/4 snap-start">
+          <div class="flex-none w-full sm:w-1/2 md:w-2/5 lg:w-2/6 snap-start">
             <TestimonialCard {testimonial} />
           </div>
         {/each}
