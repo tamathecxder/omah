@@ -2,6 +2,7 @@
     import Navbar from "./lib/components/Navbar.svelte";
     import BlogPost from "./lib/sections/BlogPost.svelte";
   import Discount from "./lib/sections/Discount.svelte";
+  import Footer from "./lib/sections/Footer.svelte";
     import Hero from "./lib/sections/Hero.svelte";
     import Latest from "./lib/sections/Latest.svelte";
     import Testimonial from "./lib/sections/Testimonial.svelte";
@@ -11,7 +12,7 @@
 <div class="container mx-auto">
     <Navbar />
     
-    <main class="py-10">
+    <main class="pt-10">
         <Hero data={data.hero} />
         <Latest latestItems={data.latest} />
         <Testimonial testimonials={data.testimonials} />
@@ -19,5 +20,7 @@
         <Discount />
     </main>
 </div>
+
+<Footer />
 
 <style></style>
