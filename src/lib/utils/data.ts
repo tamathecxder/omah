@@ -44,7 +44,7 @@ const data: PageData = {
         "Purchasing my dream home here was a breeze! The process was seamless and stress-free.",
     },
     {
-      name: "Michael",
+      name: "Elena",
       image_path: "/assets/girl-2.png",
       testimony:
         "I never thought buying a house could be this simple! The team guided me every step of the way.",
@@ -56,7 +56,7 @@ const data: PageData = {
         "From start to finish, the experience was fantastic! I found the perfect home without any hassle.",
     },
     {
-      name: "Liam",
+      name: "Khadija",
       image_path: "/assets/girl-4.png",
       testimony:
         "I was amazed at how quickly I found my house. The service was exceptional and very supportive!",
